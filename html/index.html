@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+
+    <!-- Local Css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>João Inácio</title>
+</head>
+<!-- 
+    antes de qualquer julgamento:
+    Feito é melhor que perfeito!
+-->
+<body>
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="navbar">
+            <div class="container ">
+                <a href="index.html" class="navbar-brand primary-color">
+                    <span>João Inácio</span>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbar-items"
+                    aria-controls="navbar-items"
+                    aria-expanded="false"
+                    aria-label="toggle navigation"
+                >
+                    <i class="bi bi-list primary-color"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link primary-color" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link primary-color" >Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projeto" class="nav-link primary-color" >Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link primary-color" >Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Apresentação Inicial -->
+        <main class="bodyPrimary">
+            <div class="row">
+                <div id="itro" class="col-md-8 bodyPrimaryNome order-md-first ">
+                    <h1>João Inácio</h1>
+                    <p class="mt-3">Full Stack Development Student</p>
+                    <a href="../utils/joaoinacio.pdf"><button class="btn btn-dark me-3 mt-3" download>Download CV</button></a>
+                    <!-- <button class="btn mt-3">Download</button> -->
+                </div>
+                <div id="myimg" class="col-md-4 order-sm-first">
+                    <img class="myImg" src="../img/myperfil-removebg.png" alt="" style="margin-left: 20%;">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-3"id="sobre">
+                    <div id="img2" class="col-md-4 ">
+                        <div id="img3" class="">
+                            <img src="http://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" alt="" style="width: 80%;">
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h1 class="display-3"><strong>Sobre</strong></h1>
+                        <p>Eu sou graduando em Análise e desenvolvimento de sistema e estudo paralelamente programação para me tornar um desenvolvedor full stack e também quero me especializar na linguagem Python e talvez no futuro eu virar um cientista de dados  </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3 class="display-6 mt-4">Mais Sobre me</h3>
+                        <p>Para saber mais sobre me: </p>
+                        <p>Acesse: <a href="https://github.com/Joao-Inacio" target="_blank">Aquir</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Serviços -->
+            <br>
+            <div id="projeto" class="myServico">
+                <a href="https://github.com/Joao-Inacio/Bootstrap5-Primeiro-Projeto" target="_blank">
+                    <div class="myCard1">
+                        <h2>Projeto iMove</h2>
+                    </div>
+                </a>
+                <a href="https://github.com/Joao-Inacio/App-Game-Mata-Mosquito" target="_blank">
+                    <div class="myCard2">
+                        <h2>Projeto Game Mata Mosquito</h2>
+                    </div>
+                </a>
+                <a href="https://github.com/Joao-Inacio/App-Or-amento-Pessoal-"  target="_blank">
+                    <div class="myCard3">
+                        <h2>ProjetoOrçamento Pessoal</h2>
+                    </div>
+                </a>
+            </div>
+            <div id="contato" class="contato">
+                <div class="contaCenter">
+                    <p>Entre em contato comigo</p>
+                    <a href="https://www.instagram.com/joaoinacio.ofc/" target="_blank"><i class="bi bi-instagram btn-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-in%C3%A1cio-228499b4/" target="_blank">
+                        <i class="bi bi-linkedin btn-lg"></i>
+                    </a>
+                    <a href="mailto:joaoinacio206@protonmail.com"><i class="bi bi-envelope btn-lg"></i></a>
+                </div>
+            </div>
+        </main>
+        <footer class="bodyPrimary Myfooter">
+            <p>Alguns diretos resevados</p>
+            <p>João Inácio</p>
+            <p>2022</p>
+        </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+        <!-- Local JavaScript -->
+        <script src="../js/main.js"></script>
+</body>
+
+</html>
