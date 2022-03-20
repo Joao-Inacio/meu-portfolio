@@ -89,6 +89,7 @@ body {
     height: 120px;
 }
 
+/* mobile */
 @media(max-width:767px) {
     .myServico {
         width: 100%;
@@ -121,7 +122,9 @@ body {
         margin-left: 2%;
         margin-right: 0%;
         margin-top: 10px;
-        background-color: #7a7a7a;
+        background-image: url('../img/projeto2.png');
+        background-position: center;
+        background-size: cover;
         opacity: 0.5;
     }
 
@@ -132,7 +135,9 @@ body {
         margin-left: 2%;
         margin-right: 0%;
         margin-top: 10px;
-        background-color: #7a7a7a;
+        background-image: url('../img/projeto3.png');
+        background-position: center;
+        background-size: cover;
         opacity: 0.5;
     }
 }
