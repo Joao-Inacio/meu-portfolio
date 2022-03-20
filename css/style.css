@@ -109,7 +109,7 @@ body {
         margin-left: 2%;
         margin-right: 0%;
         /* background-color: #7a7a7a; */
-        background-image: url('../img/Projeto1.png');
+        background-image: url('../img/Projeto1.png')!important;
         background-position: center;
         background-size: cover;
         opacity: 0.3;
@@ -122,7 +122,7 @@ body {
         margin-left: 2%;
         margin-right: 0%;
         margin-top: 10px;
-        background-image: url('../img/projeto2.png');
+        background-image: url('../img/projeto2.png')!important;
         background-position: center;
         background-size: cover;
         opacity: 0.5;
@@ -135,7 +135,7 @@ body {
         margin-left: 2%;
         margin-right: 0%;
         margin-top: 10px;
-        background-image: url('../img/projeto3.png');
+        background-image: url('../img/projeto3.png')!important;
         background-position: center;
         background-size: cover;
         opacity: 0.5;
@@ -160,7 +160,7 @@ body {
         height: 300px;
         margin-left: 2%;
         margin-right: 1%;
-        background-image: url('../img/Projeto1.png');
+        background-image: url('../img/Projeto1.png')!important;
         background-position: center;
         background-size: cover;
         /* background-attachment: fixed; */
@@ -177,7 +177,7 @@ body {
         height: 300px;
         margin-left: 2%;
         margin-right: 1%;
-        background-image: url('../img/projeto2.png');
+        background-image: url('../img/projeto2.png')!important;
         background-position: center;
         background-size: cover;
     }
@@ -193,7 +193,7 @@ body {
         height: 300px;
         margin-left: 2%;
         margin-right: 1%;
-        background-image: url('../img/projeto3.png');
+        background-image: url('../img/projeto3.png')!important;
         background-position: center;
         background-size: cover;
     }
