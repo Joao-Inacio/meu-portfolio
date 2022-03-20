@@ -108,7 +108,12 @@ body {
         height: 400px;
         margin-left: 2%;
         margin-right: 0%;
-        background-image: url('../img/Projeto1.png')!important;
+<<<<<<< HEAD
+        background-image: url('../img/projeto1.png')!important;
+=======
+        /* background-color: #7a7a7a; */
+        background-image: url('../img/projeto1.png')!important;
+>>>>>>> e67330235aeab834e1e56a28432656cb74cacbfd
         background-position: center;
         background-size: cover;
         opacity: 0.3;
@@ -159,7 +164,7 @@ body {
         height: 300px;
         margin-left: 2%;
         margin-right: 1%;
-        background-image: url('../img/Projeto1.png')!important;
+        background-image: url('../img/projeto1.png')!important;
         background-position: center;
         background-size: cover;
         /* background-attachment: fixed; */
